@@ -15,10 +15,12 @@ Build instructions
  * copy the `dcm4chee-web-dwv` folder in `dcm4chee-web`,
  * build it by typing `mvn clean install` in its folder.
 
+This should create a `dcm4chee-web-dwv.jar` in the `dcm4chee-web-dwv\target` folder.
+
 Installation
 ------------
 In the dcm4chee `server\default\deploy` folder, copy:
- * the built `dcm4chee-web-dwv.jar` (should be in `dcm4chee-web-dwv\target`),
+ * the `dcm4chee-web-dwv.jar` (built or from its [releases](https://github.com/ivmartel/dcm4chee-web-dwv/releases))
  * the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
  * the desired `dwv.war` (soon in the dwv [releases](https://github.com/ivmartel/dwv/releases)).
 
