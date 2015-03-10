@@ -8,7 +8,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dcm4che.dcm4chee</groupId>
-	<artifactId>dcm4chee-web-dwv</artifactId>
+	<artifactId>dwv-dcm4chee-web</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1</version>
 	<name>URL Provider for DWV Webviewer</name>

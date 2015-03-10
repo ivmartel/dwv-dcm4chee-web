@@ -1,7 +1,7 @@
-dcm4chee-web-dwv
+dwv-dcm4chee-web
 ================
 
-[dcm4chee](http://www.dcm4che.org/)-web3 link provider for the [dwv](https://github.com/ivmartel/dwv) web viewer. Only compatible with the dcm4chee-web3 interface and with dcm4chee installed at `localhost:8080` (until I fix [#1](https://github.com/ivmartel/dcm4chee-web-dwv/issues/1)).
+[dcm4chee](http://www.dcm4che.org/)-web3 link provider for the [dwv](https://github.com/ivmartel/dwv) web viewer. Only compatible with the dcm4chee-web3 interface and with dcm4chee installed at `localhost:8080` (until I fix [#1](https://github.com/ivmartel/dwv-dcm4chee-web/issues/1)).
 
 Build requirements
 ------------------
@@ -12,17 +12,17 @@ Build instructions
 ------------------
  * download the dcm4chee-web-3.0.3 [sources](http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip/download),
  * build `dcm4chee-web\dcm4chee-web-urlprovider` by typing `mvn clean install` in its folder,
- * copy the `dcm4chee-web-dwv` folder in `dcm4chee-web`,
+ * copy the `dwv-dcm4chee-web` folder in `dcm4chee-web`,
  * build it by typing `mvn clean install` in its folder.
 
-This should create a `dcm4chee-web-dwv.jar` in the `dcm4chee-web-dwv\target` folder.
+This should create a `dwv-dcm4chee-web.jar` in the `dwv-dcm4chee-web\target` folder.
 
 Installation
 ------------
 In the dcm4chee `server\default\deploy` folder, copy:
- * the `dcm4chee-web-dwv.jar` (built or from its [releases](https://github.com/ivmartel/dcm4chee-web-dwv/releases))
+ * the `dwv-dcm4chee-web.jar` (built or from its [releases](https://github.com/ivmartel/dwv-dcm4chee-web/releases))
  * the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
- * the desired `dwv.war` (soon in the dwv [releases](https://github.com/ivmartel/dwv/releases)).
+ * the desired `dwv.war` (in the dwv [releases](https://github.com/ivmartel/dwv/releases)).
 
 dcm4chee configuration
 ----------------------
