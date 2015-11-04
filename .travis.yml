@@ -4,8 +4,7 @@ sudo: false
 language: java
 
 before_install:
- - cd ..
- - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip/download
+ - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip
  - unzip dcm4chee-web-3.0.3-src.zip
  - cd dcm4chee-web/dcm4chee-web-urlprovider
  - mvn clean install
