@@ -3,7 +3,7 @@ sudo: false
 
 language: java
 
-before_script:
+before_install:
  - cd ..
  - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip/download
  - unzip dcm4chee-web-3.0.3-src.zip
