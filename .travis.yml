@@ -14,7 +14,7 @@ before_install:
  - ls -l
  - cd dwv-dcm4chee-web
  - ls -l
- - mvn ckean install -X
+ - mvn clean install -X
 
 after_script:
  - ls -l target
