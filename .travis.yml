@@ -12,6 +12,7 @@ before_install:
  - cd ../..
  - mv dwv-dcm4chee-web dcm4chee-web
  - cd dcm4chee-web/dwv-dcm4chee-web
+ - ls -l
 
 after_script:
- - ls -l
+ - ls -l target
