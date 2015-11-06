@@ -6,10 +6,10 @@ language: java
 before_install:
  - cd ..
  - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip
- - unzip dcm4chee-web-3.0.3-src.zip
+ - unzip -a dcm4chee-web-3.0.3-src.zip
  - cd dcm4chee-web
  - mv ../dwv-dcm4chee-web .
- - patch --binary pom.xml dwv-dcm4chee-web/dcm4chee.patch
+ - patch pom.xml dwv-dcm4chee-web/dcm4chee.patch
 
 after_script:
  - ls -l target
