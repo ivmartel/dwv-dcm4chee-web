@@ -9,8 +9,7 @@ before_install:
  - unzip dcm4chee-web-3.0.3-src.zip
  - cd dcm4chee-web
  - mv ../dwv-dcm4chee-web .
- - dos2unix pom.xml
- - patch pom.xml dwv-dcm4chee-web/dcm4chee.patch
+ - patch pom.xml dwv-dcm4chee-web/dcm4chee.patch --binary
 
 after_script:
  - ls -l target
