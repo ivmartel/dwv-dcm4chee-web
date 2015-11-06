@@ -14,6 +14,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #go into directory and copy data we're interested in to that directory
   cd gh-pages
   #copy new dist
+  ls -l
   cp -R $HOME/distrib/* distrib
   #add, commit and push files
   git add -Af .
