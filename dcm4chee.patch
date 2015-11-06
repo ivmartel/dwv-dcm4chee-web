@@ -1,0 +1,21 @@
+@@ -30,13 +30,14 @@
+ 				<activeByDefault>true</activeByDefault>
+ 			</activation>
+ 		    <modules>
+-		        <module>dcm4chee-web-ejb</module>
++		        <!--<module>dcm4chee-web-ejb</module>-->
+ 		        <module>dcm4chee-web-urlprovider</module>
+-		        <module>dcm4chee-web-licenseprovider</module>
+-		        <module>dcm4chee-web-war</module>
+-		        <module>dcm4chee-web-dicom</module>
+-		        <module>dcm4chee-web-sar</module>
+-		        <module>dcm4chee-web-ear</module>
++		        <!--<module>dcm4chee-web-licenseprovider</module>-->
++		        <!--<module>dcm4chee-web-war</module>-->
++		        <!--<module>dcm4chee-web-dicom</module>-->
++		        <!--<module>dcm4chee-web-sar</module>-->
++		        <!--<module>dcm4chee-web-ear</module>-->
++		        <module>dwv-dcm4chee-web</module>
+ 		    </modules>
+ 		</profile>
+ 		<profile>
