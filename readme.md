@@ -3,6 +3,8 @@ dwv-dcm4chee-web
 
 [dcm4chee](http://www.dcm4che.org/)-web3 link provider for the [dwv](https://github.com/ivmartel/dwv) web viewer. Only compatible with the dcm4chee-web3 interface and with dcm4chee installed at `localhost:8080` (until I fix [#1](https://github.com/ivmartel/dwv-dcm4chee-web/issues/1)).
 
+[![Build Status](https://travis-ci.org/ivmartel/dwv-dcm4chee-web.svg?branch=master)](https://travis-ci.org/ivmartel/dwv-dcm4chee-web)
+
 Build requirements
 ------------------
  * Java jdk 7,
