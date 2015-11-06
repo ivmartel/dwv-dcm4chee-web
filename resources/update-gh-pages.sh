@@ -11,7 +11,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #go into directory and copy data we're interested in to that directory
   cd gh-pages
   #copy new dist
-  cp -R dwv-dcm4chee-web/target/*.jar distrib
+  cp -R ../dwv-dcm4chee-web/target/*.jar distrib
   #add, commit and push files
   git add -Af .
   git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
