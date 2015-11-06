@@ -12,4 +12,4 @@ before_install:
  - patch pom.xml dwv-dcm4chee-web/dcm4chee.patch
 
 after_script:
- - ls -l target
+ - ls -l dwv-dcm4chee-web/target
