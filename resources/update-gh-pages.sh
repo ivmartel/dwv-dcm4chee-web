@@ -6,6 +6,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #setup git
   pwd
   cd $HOME
+  pwd
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis"
   #using token clone gh-pages branch
