@@ -9,7 +9,6 @@ env:
     - secure: jWTxnnLGmoM+j3148tIF2SJMEyub2j9kmR15vEKVeP6BbUvNgWH9jTSwf6Ddv3qjbAb3D8p9nhYBOZgRub1stwjWCH+DS17AoKFeRVj4Q8Sf0XBHGzJbn0FkstilVmGv3Zr/FVmDSEm1xSSHanWCUQX0uH9r/XB8z7khp4pLryo=
 
 before_install:
- - echo ${GH_TOKEN}
  - cd ..
  - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip
  - unzip -aa dcm4chee-web-3.0.3-src.zip
