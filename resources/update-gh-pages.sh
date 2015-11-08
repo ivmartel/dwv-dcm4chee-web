@@ -4,9 +4,6 @@
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo -e "Starting to update gh-pages\n"
   #setup git
-  pwd
-  cd $HOME
-  pwd
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis"
   #using token clone gh-pages branch
