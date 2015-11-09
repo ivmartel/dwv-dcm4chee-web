@@ -8,7 +8,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   wget https://github.com/ivmartel/dwv/releases/download/v$DWV_VERSION/dwv-$DWV_VERSION.zip
   unzip dwv-$DWV_VERSION.zip
   cd dwv-$DWV_VERSION
-  jar -cvf dwv.war *
+  jar -cvf dwv-$DWV_VERSION.war *
   cd ..
   #setup git
   git config --global user.email "travis@travis-ci.org"

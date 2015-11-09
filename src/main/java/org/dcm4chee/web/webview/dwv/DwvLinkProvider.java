@@ -52,7 +52,7 @@ public class DwvLinkProvider extends WebviewerLinkProviderSPI {
     private static final long serialVersionUID = 4548297230882756086L;
 
     private String baseUrl = "/dwv/viewers/mobile/index.html?type=manifest&input=";
-    private String wadoUrl = "http://localhost:8080/weasis-pacs-connector/manifest?";
+    private String wadoUrl = "/weasis-pacs-connector/manifest?";
     
     private String getFinalURL(String wadoUrl) {
         StringBuilder buffer = new StringBuilder(baseUrl);
