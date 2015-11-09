@@ -6,7 +6,7 @@ language: java
 # setup the travis token
 env:
   global:
-    - secure: SX89cRLYoKCbkmzAiFdjif5QNGE4yAzeWP2pdevT9VO7KdX/6m7hpOnZJlkHCE+UoJlaKfd7SZPCKvnz+c8H2R2op+2v5Rz9FoCypHzqlE802XOsnHFusw9HLmjG5Zte42hi9/EkqtwSa2ecFhdsH49dOhR7oI0H4plXMBstt+g=
+    - secure: Gpihp9sulvCFSd1ZXxy4rSKGHxsb86IazFPsNJh2Hodo4pEmoDMOorbAgu6mlshiQO5dEpYZlY+nBWunCL1qPqJ+JRf3inGTTvjbNRSw0HSrMt1Mj1FtZJ41MrfkduSbijIsTv+Xi5vvr8iRFj/9uliorwT8hBbckpLaELa7bIs=
 
 before_install:
  - cd ..
