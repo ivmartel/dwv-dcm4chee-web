@@ -5,13 +5,11 @@ dwv-dcm4chee-web
 
 [![Build Status](https://travis-ci.org/ivmartel/dwv-dcm4chee-web.svg?branch=master)](https://travis-ci.org/ivmartel/dwv-dcm4chee-web)
 
-Build requirements
-------------------
- * Java jdk 7,
- * [Maven](http://maven.apache.org/download.cgi).
-
 Build instructions
 ------------------
+In order to build, you need: Java jdk 7 and [Maven](http://maven.apache.org/download.cgi).
+
+The step are:
  * download the dcm4chee-web-3.0.3 [sources](http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip/download),
  * copy the `dwv-dcm4chee-web` folder in `dcm4chee-web`,
  * move into the `dcm4chee-web` directory,
