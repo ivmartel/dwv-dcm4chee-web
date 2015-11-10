@@ -8,14 +8,14 @@ dwv-dcm4chee-web
 Build requirements
 ------------------
  * Java jdk 7,
- * Maven [2.2.1](http://maven.apache.org/download.cgi) (didn't manage to build with v3.2.1).
+ * [Maven](http://maven.apache.org/download.cgi).
 
 Build instructions
 ------------------
  * download the dcm4chee-web-3.0.3 [sources](http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip/download),
- * build `dcm4chee-web\dcm4chee-web-urlprovider` by typing `mvn clean install` in its folder,
  * copy the `dwv-dcm4chee-web` folder in `dcm4chee-web`,
- * build it by typing `mvn clean install` in its folder.
+ * move into the `dcm4chee-web` directory,
+ * build by typing `mvn clean install`.
 
 This should create a `dwv-dcm4chee-web.jar` in the `dwv-dcm4chee-web\target` folder.
 
@@ -24,7 +24,7 @@ Installation
 In the dcm4chee `server\default\deploy` folder, copy:
  * the `dwv-dcm4chee-web.jar` (built or from its [releases](https://github.com/ivmartel/dwv-dcm4chee-web/releases))
  * the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
- * the desired `dwv.war` (in the dwv [releases](https://github.com/ivmartel/dwv/releases)).
+ * the desired `dwv.war`.
 
 dcm4chee configuration
 ----------------------
