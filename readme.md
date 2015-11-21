@@ -16,7 +16,7 @@ Installation
 In the dcm4chee `server\default\deploy` folder, copy:
  * the `dwv-dcm4chee-web.jar` (built or from its [releases](https://github.com/ivmartel/dwv-dcm4chee-web/releases))
  * the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
- * the desired `dwv.war`.
+ * the desired `dwv.war` (from this [page](http://ivmartel.github.io/dwv-dcm4chee-web/)).
 
 dcm4chee configuration
 ----------------------
