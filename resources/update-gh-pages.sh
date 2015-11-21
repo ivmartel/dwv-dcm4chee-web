@@ -9,7 +9,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #using token clone gh-pages branch
   git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/ivmartel/dwv-dcm4chee-web.git gh-pages > /dev/null
   #a bit out of scope, while we have a java environment...
-  export DWV_VERSION=0.12.0
+  export DWV_VERSION=0.13.0
   if [ ! -f gh-pages/distrib/dwv-$DWV_VERSION.war ]; then
     echo -e "Creating dwv war file\n"
     wget https://github.com/ivmartel/dwv/releases/download/v$DWV_VERSION/dwv-$DWV_VERSION.zip
