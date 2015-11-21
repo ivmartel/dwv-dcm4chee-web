@@ -6,6 +6,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #setup git
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis"
+  echo -e "Cloning...\n"
   #using token clone gh-pages branch
   git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/ivmartel/dwv-dcm4chee-web.git gh-pages > /dev/null
   #a bit out of scope, while we have a java environment...
