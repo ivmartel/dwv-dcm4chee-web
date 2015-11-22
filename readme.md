@@ -1,13 +1,15 @@
 dwv-dcm4chee-web
 ================
 
-[dcm4chee](http://www.dcm4che.org/)-web3 link provider for the [dwv](https://github.com/ivmartel/dwv) web viewer. 
+[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. 
+
+Released under GNU GPL license (see [license.txt](license.txt)). 
 
 [![Build Status](https://travis-ci.org/ivmartel/dwv-dcm4chee-web.svg?branch=master)](https://travis-ci.org/ivmartel/dwv-dcm4chee-web)
 
 Build instructions
 ------------------
-In order to build, you need: Java jdk 7 and [Maven](http://maven.apache.org/download.cgi). Check out the build steps from the [travis](https://github.com/ivmartel/dwv-dcm4chee-web/blob/master/.travis.yml) file.
+In order to build this project, you need: Java jdk and [Maven](http://maven.apache.org/download.cgi). Check out the build steps from the [travis](https://github.com/ivmartel/dwv-dcm4chee-web/blob/master/.travis.yml) file. The current build is generated using Java 1.7 and Maven 3.2.
 
 The result is the `dwv-dcm4chee-web.jar` file.
 
