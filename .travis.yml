@@ -9,6 +9,7 @@ env:
     - secure: Gpihp9sulvCFSd1ZXxy4rSKGHxsb86IazFPsNJh2Hodo4pEmoDMOorbAgu6mlshiQO5dEpYZlY+nBWunCL1qPqJ+JRf3inGTTvjbNRSw0HSrMt1Mj1FtZJ41MrfkduSbijIsTv+Xi5vvr8iRFj/9uliorwT8hBbckpLaELa7bIs=
 
 before_install:
+ - mvn --version
  - cd ..
  - wget http://sourceforge.net/projects/dcm4che/files/dcm4chee-web/3.0.3/dcm4chee-web-3.0.3-src.zip
  - unzip -aa dcm4chee-web-3.0.3-src.zip
