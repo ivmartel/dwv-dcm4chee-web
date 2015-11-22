@@ -9,7 +9,7 @@ Released under GNU GPL license (see [license.txt](license.txt)).
 
 Build instructions
 ------------------
-In order to build this project, you need: Java jdk and [Maven](http://maven.apache.org/download.cgi). Check out the build steps from the [travis](https://github.com/ivmartel/dwv-dcm4chee-web/blob/master/.travis.yml) file. The current build is generated using Java 1.7 and Maven 3.2.
+In order to build this project, you need: Java jdk and [Maven](http://maven.apache.org/download.cgi). Check out the build steps from the [travis](https://github.com/ivmartel/dwv-dcm4chee-web/blob/master/.travis.yml) file and the build log. The current build is generated using Java 1.7 and Maven 3.2.
 
 The result is the `dwv-dcm4chee-web.jar` file.
 
