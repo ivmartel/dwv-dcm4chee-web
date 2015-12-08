@@ -28,4 +28,9 @@ From the JMX console `http://localhost:8080/jmx-console` (adapt to your host):
  * check that `WebviewerBaseUrl = NONE`,
  * click the `Apply Changes` button.
 
-That's it, from `http://localhost:8080/dcm4chee-web3` you should now be able to directly launch dwv from the `Open Web Viewer` icon at the Patient, Series and Study level as for the [Weasis](http://www.dcm4che.org/confluence/display/WEA/Installing+Weasis+in+DCM4CHEE) web viewer (see [snapshot](http://www.dcm4che.org/confluence/download/attachments/16121882/screen1b.png)).
+Launch
+-------
+From `http://localhost:8080/dcm4chee-web3` you should now be able to directly launch dwv from the `Open Web Viewer` icon at the Patient, Series and Study level as for the [Weasis](http://www.dcm4che.org/confluence/display/WEA/Installing+Weasis+in+DCM4CHEE) web viewer (see [snapshot](http://www.dcm4che.org/confluence/download/attachments/16121882/screen1b.png)).
+
+As a check if things go west, DWV should be availalble from `http://localhost:8080/dwv/viewers/mobile`.
+
