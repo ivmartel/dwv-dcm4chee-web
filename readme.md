@@ -1,7 +1,7 @@
 dwv-dcm4chee-web
 ================
 
-[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. Tested dcm4che version: [2.17.1-mysql](http://sourceforge.net/projects/dcm4che/files/dcm4chee/2.17.1/dcm4chee-2.17.1-mysql.zip/download) with [JBOSS 4.2.3.GA](http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip/download) (see the installation [manual](http://www.dcm4che.org/confluence/display/ee2/Installation)).
+[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. Tested dcm4chee version: [2.17.1-mysql](http://sourceforge.net/projects/dcm4che/files/dcm4chee/2.17.1/dcm4chee-2.17.1-mysql.zip/download) with [JBOSS 4.2.3.GA](http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip/download) (see the installation [manual](http://www.dcm4che.org/confluence/display/ee2/Installation)).
 
 Released under GNU GPL license (see [license.txt](license.txt)). 
 
