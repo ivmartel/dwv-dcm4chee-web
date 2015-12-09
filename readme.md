@@ -30,7 +30,7 @@ From the JMX console (default at [http://localhost:8080/jmx-console](http://loca
 
 Launch
 -------
-From dcm4che web interface (default at [http://localhost:8080/dcm4chee-web3](http://localhost:8080/dcm4chee-web3)) you should now be able to directly launch dwv from the `Open Web Viewer` icon at the Patient, Series and Study level as for the [Weasis](http://www.dcm4che.org/confluence/display/WEA/Installing+Weasis+in+DCM4CHEE) web viewer (see [snapshot](http://www.dcm4che.org/confluence/download/attachments/16121882/screen1b.png)).
+From dcm4che web interface (default at [http://localhost:8080/dcm4chee-web3](http://localhost:8080/dcm4chee-web3)) you should now be able to directly launch dwv from the `Open Web Viewer` icon at the Patient, Series and Study level as for the [Weasis](http://www.dcm4che.org/confluence/display/WEA/Installing+Weasis+in+DCM4CHEE) web viewer (see [snapshot](https://dcm4che.atlassian.net/wiki/display/WEA/Home?preview=/3670024/3670343/screen1b.png)).
 
 As a check if things go west, DWV should be availalble from [http://localhost:8080/dwv/viewers/mobile](http://localhost:8080/dwv/viewers/mobile).
 
