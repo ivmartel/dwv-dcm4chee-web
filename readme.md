@@ -1,7 +1,9 @@
 dwv-dcm4chee-web
 ================
 
-[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. Tested dcm4chee version: [2.17.1-mysql](http://sourceforge.net/projects/dcm4che/files/dcm4chee/2.17.1/dcm4chee-2.17.1-mysql.zip/download) with [JBOSS 4.2.3.GA](http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip/download) (see the installation [manual](http://www.dcm4che.org/confluence/display/ee2/Installation)).
+[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. 
+
+Tested setting: dcm4chee [2.17.1-mysql](http://sourceforge.net/projects/dcm4che/files/dcm4chee/2.17.1/dcm4chee-2.17.1-mysql.zip/download) or [2.18.1-mysql](http://sourceforge.net/projects/dcm4che/files/dcm4chee/2.18.1/dcm4chee-2.18.1-mysql.zip/download) with [JBOSS 4.2.3.GA](http://sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/jboss-4.2.3.GA.zip/download) (using the Java jdk 7, see the installation [manual](http://www.dcm4che.org/confluence/display/ee2/Installation)) and the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download).
 
 Released under GNU GPL license (see [license.txt](license.txt)). 
 
@@ -17,7 +19,7 @@ Installation
 ------------
 In the dcm4chee `server\default\deploy` folder, copy:
  * the `dwv-dcm4chee-web.jar` (built or from its [releases](https://github.com/ivmartel/dwv-dcm4chee-web/releases))
- * the weasis-pacs-connector [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
+ * the [weasis-pacs-connector](https://github.com/nroduit/weasis-pacs-connector) [v4.0.0](http://sourceforge.net/projects/dcm4che/files/Weasis/weasis-pacs-connector/4.0.0/weasis-pacs-connector.war/download),
  * the desired `dwv`: download from this [page](http://ivmartel.github.io/dwv-dcm4chee-web/) and rename to `dwv.war`.
 
 dcm4chee configuration
