@@ -9,14 +9,15 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   #using token clone gh-pages branch
   git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/ivmartel/dwv-dcm4chee-web.git gh-pages > /dev/null
   #a bit out of scope, while we have a java environment...
-  export DWV_VERSION=0.22.1
-  if [ ! -f gh-pages/distrib/dwv-$DWV_VERSION.war ]; then
-    echo -e "Creating dwv war file\n"
-    wget https://github.com/ivmartel/dwv/releases/download/v$DWV_VERSION/dwv-$DWV_VERSION.zip
-    unzip -qq dwv-$DWV_VERSION.zip
-    cd dwv-$DWV_VERSION
-    jar -cvf dwv-$DWV_VERSION.war *
-    cp dwv-$DWV_VERSION.war ../gh-pages/distrib
+  export DWV_VIEWER_NAME=dwv-jqmobile
+  export DWV_VIEWER_VERSION=0.2.0
+  if [ ! -f gh-pages/distrib/dwv-viewer_$DWV_VIEWER_NAME-$DWV_VIEWER_VERSION.war ]; then
+    echo -e "Creating dwv-viewer war file\n"
+    wget https://github.com/ivmartel/$DWV_VIEWER_NAME/releases/download/v$DWV_VIEWER_VERSION/$DWV_VIEWER_NAME-$DWV_VIEWER_VERSION.zip
+    unzip -qq $DWV_VIEWER_NAME-$DWV_VIEWER_VERSION.zip
+    cd $DWV_VIEWER_NAME-$DWV_VIEWER_VERSION
+    jar -cvf dwv-viewer_$DWV_VIEWER_NAME-$DWV_VIEWER_VERSION.war *
+    cp dwv-viewer_$DWV_VIEWER_NAME-$DWV_VIEWER_VERSION.war ../gh-pages/distrib
     cd ..
   fi
   #copy new dist
