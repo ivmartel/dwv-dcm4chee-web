@@ -1,7 +1,7 @@
 dwv-dcm4chee-web
 ================
 
-[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. 
+[dcm4chee](http://www.dcm4che.org/)-web3 link provider to preview DICOM series and instances using a viewer based on [dwv](https://github.com/ivmartel/dwv), a pure HTML5/JavaScript **D**ICOM **W**eb **V**iewer. 
 
 Released under GNU GPL license (see [license.txt](license.txt)). 
 
@@ -12,7 +12,7 @@ Installation
 You need a working version of dcm4chee. In the `server\default\deploy` folder, copy:
  * the [weasis-pacs-connector](https://github.com/nroduit/weasis-pacs-connector),
  * the `dwv-dcm4chee-web.jar`,
- * the desired `dwv` as a `war` file (has to be named `dwv.war`).
+ * the desired dwv viewer as a `war` file (has to be named `dwv-viewer.war`).
 
 Check out the [wiki](https://github.com/ivmartel/dwv-dcm4chee-web/wiki) for download links and version details.
 
